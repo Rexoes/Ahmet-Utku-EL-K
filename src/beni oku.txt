@@ -1,0 +1,16 @@
+Bu veri seti yaş, cinsiyet, sahip olunan cesitli hastaliklar gibi bilgileri 
+kalp krizine etki edip etmedigini  tahmin etmek icin üretilmiştir.
+
+Özellikler:
+1) gender: cinsiyet
+2) age: yas (integer)
+3) hypertension: 1 ise kişinin hiper tansiyonu vardir, 0 ise yoktur.
+4) heart_disease: 1 ise kişinin herhangi bir kalp rahatsizligi vardir, 0 ise yoktur.
+5) ever_married: kişinin daha önce evlenip, evlenmedigi
+6) work_type: calisma türü:"children", "Govt_jov", "Never_worked", "Private" or "Self-employed"
+7) Residence_type: kişinin kirsalda yada şehirde yaşadiği: "Rural" or "Urban"
+8) avg_glucose_level: kandaki ortalama glikoz seviyesi
+9) bmi: vucut kitle indeksi
+10)  smoking_status: sigara icme durumu: "formerly smoked", "never smoked", "smokes" or "Unknown"*
+* unknown:kisinin sigara icip icmedigi bilinmiyor
+11) SINIF (tahmin etmek istediğimiz kolon): 1 ise kişi kalp krizi geçirmiştir, 0 ise geçirmemiştir.
